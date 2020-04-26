@@ -2,6 +2,12 @@
 
 Boilerplate code for electron with typescript and react
 
+Install dependencies
+
+```
+npm install
+```
+
 Clone the repository
 
 ```

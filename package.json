@@ -1,0 +1,36 @@
+{
+  "name": "electron-typescript-react",
+  "version": "0.1.0",
+  "main": "./build/electron/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./build/electron/main.js",
+    "dist": "npm run build && electron-builder"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "electron": "^8.2.3",
+    "electron-builder": "^22.5.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "author": "Alex",
+  "description": "Electron Boilerplate with Typescript and React",
+  "build": {
+    "appId": "com.example.electron-cra",
+    "files": [
+      "build/**/*",
+      "public/index.html",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    }
+  }
+}

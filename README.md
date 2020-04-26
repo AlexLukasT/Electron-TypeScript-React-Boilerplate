@@ -2,20 +2,20 @@
 
 Boilerplate code for electron with typescript and react
 
-_Clone the repository_
+Clone the repository
 
 ```
 git clone https://github.com/AlexLukasT/Electron-TypeScript-React-Boilerplate.git
 cd Electron-TypeScript-React-Boilerplate
 ```
 
-_Build the project and run with electron_
+Build the project and run with electron
 
 ```
 npm run start
 ```
 
-_Publish the project and make an executable_
+Publish the project and make an executable
 
 ```
 npm run dist
